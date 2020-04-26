@@ -1,3 +1,0 @@
-/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles/asd.dir

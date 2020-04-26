@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/asd.dir/main.cpp.o CMakeFiles/asd.dir/ConsolePrinter.cpp.o CMakeFiles/asd.dir/MyLine.cpp.o CMakeFiles/asd.dir/MyText.cpp.o  -o asd 
