@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mg/CLionProjects/projects/Alina2204Wielokrotne/Main.h
+iostream
+-
+math.h
+-
+cmath
+-
+
+/home/mg/CLionProjects/projects/Alina2204Wielokrotne/main.cpp
+iostream
+-
+Main.h
+/home/mg/CLionProjects/projects/Alina2204Wielokrotne/Main.h
+

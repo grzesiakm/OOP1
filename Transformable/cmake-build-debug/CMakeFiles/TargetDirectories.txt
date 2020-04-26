@@ -1,0 +1,3 @@
+/home/mg/CLionProjects/projects/Alina2204Wielokrotne/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mg/CLionProjects/projects/Alina2204Wielokrotne/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mg/CLionProjects/projects/Alina2204Wielokrotne/cmake-build-debug/CMakeFiles/Alina2204Wielokrotne.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Alina2204Wielokrotne.dir/main.cpp.o  -o Alina2204Wielokrotne 
