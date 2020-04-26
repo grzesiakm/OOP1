@@ -6,65 +6,65 @@
 
 #IncludeRegexTransform: 
 
-/home/mg/CLionProjects/projects/asd/AttColor.h
+/home/mg/malinowyKROL/ConsolePrinter/AttColor.h
 
-/home/mg/CLionProjects/projects/asd/AttFormat.h
+/home/mg/malinowyKROL/ConsolePrinter/AttFormat.h
 
-/home/mg/CLionProjects/projects/asd/ConsolePrinter.cpp
+/home/mg/malinowyKROL/ConsolePrinter/ConsolePrinter.cpp
 ConsolePrinter.h
-/home/mg/CLionProjects/projects/asd/ConsolePrinter.h
+/home/mg/malinowyKROL/ConsolePrinter/ConsolePrinter.h
 MyText.h
-/home/mg/CLionProjects/projects/asd/MyText.h
+/home/mg/malinowyKROL/ConsolePrinter/MyText.h
 MyLine.h
-/home/mg/CLionProjects/projects/asd/MyLine.h
+/home/mg/malinowyKROL/ConsolePrinter/MyLine.h
 iostream
 -
 
-/home/mg/CLionProjects/projects/asd/ConsolePrinter.h
+/home/mg/malinowyKROL/ConsolePrinter/ConsolePrinter.h
 StringConvertable.h
-/home/mg/CLionProjects/projects/asd/StringConvertable.h
+/home/mg/malinowyKROL/ConsolePrinter/StringConvertable.h
 AttFormat.h
-/home/mg/CLionProjects/projects/asd/AttFormat.h
+/home/mg/malinowyKROL/ConsolePrinter/AttFormat.h
 AttColor.h
-/home/mg/CLionProjects/projects/asd/AttColor.h
+/home/mg/malinowyKROL/ConsolePrinter/AttColor.h
 
-/home/mg/CLionProjects/projects/asd/MyLine.cpp
+/home/mg/malinowyKROL/ConsolePrinter/MyLine.cpp
 MyLine.h
-/home/mg/CLionProjects/projects/asd/MyLine.h
+/home/mg/malinowyKROL/ConsolePrinter/MyLine.h
 
-/home/mg/CLionProjects/projects/asd/MyLine.h
+/home/mg/malinowyKROL/ConsolePrinter/MyLine.h
 AttColor.h
-/home/mg/CLionProjects/projects/asd/AttColor.h
+/home/mg/malinowyKROL/ConsolePrinter/AttColor.h
 AttFormat.h
-/home/mg/CLionProjects/projects/asd/AttFormat.h
+/home/mg/malinowyKROL/ConsolePrinter/AttFormat.h
 StringConvertable.h
-/home/mg/CLionProjects/projects/asd/StringConvertable.h
+/home/mg/malinowyKROL/ConsolePrinter/StringConvertable.h
 
-/home/mg/CLionProjects/projects/asd/MyText.cpp
+/home/mg/malinowyKROL/ConsolePrinter/MyText.cpp
 MyText.h
-/home/mg/CLionProjects/projects/asd/MyText.h
+/home/mg/malinowyKROL/ConsolePrinter/MyText.h
 
-/home/mg/CLionProjects/projects/asd/MyText.h
+/home/mg/malinowyKROL/ConsolePrinter/MyText.h
 AttFormat.h
-/home/mg/CLionProjects/projects/asd/AttFormat.h
+/home/mg/malinowyKROL/ConsolePrinter/AttFormat.h
 AttColor.h
-/home/mg/CLionProjects/projects/asd/AttColor.h
+/home/mg/malinowyKROL/ConsolePrinter/AttColor.h
 StringConvertable.h
-/home/mg/CLionProjects/projects/asd/StringConvertable.h
+/home/mg/malinowyKROL/ConsolePrinter/StringConvertable.h
 
-/home/mg/CLionProjects/projects/asd/StringConvertable.h
+/home/mg/malinowyKROL/ConsolePrinter/StringConvertable.h
 string
 -
 iostream
 -
 
-/home/mg/CLionProjects/projects/asd/main.cpp
+/home/mg/malinowyKROL/ConsolePrinter/main.cpp
 MyText.h
-/home/mg/CLionProjects/projects/asd/MyText.h
+/home/mg/malinowyKROL/ConsolePrinter/MyText.h
 MyLine.h
-/home/mg/CLionProjects/projects/asd/MyLine.h
+/home/mg/malinowyKROL/ConsolePrinter/MyLine.h
 ConsolePrinter.h
-/home/mg/CLionProjects/projects/asd/ConsolePrinter.h
+/home/mg/malinowyKROL/ConsolePrinter/ConsolePrinter.h
 iostream
 -
 

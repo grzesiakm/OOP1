@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mg/CLionProjects/projects/asd/ConsolePrinter.cpp" "/home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles/asd.dir/ConsolePrinter.cpp.o"
-  "/home/mg/CLionProjects/projects/asd/MyLine.cpp" "/home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles/asd.dir/MyLine.cpp.o"
-  "/home/mg/CLionProjects/projects/asd/MyText.cpp" "/home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles/asd.dir/MyText.cpp.o"
-  "/home/mg/CLionProjects/projects/asd/main.cpp" "/home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles/asd.dir/main.cpp.o"
+  "/home/mg/malinowyKROL/ConsolePrinter/ConsolePrinter.cpp" "/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles/asd.dir/ConsolePrinter.cpp.o"
+  "/home/mg/malinowyKROL/ConsolePrinter/MyLine.cpp" "/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles/asd.dir/MyLine.cpp.o"
+  "/home/mg/malinowyKROL/ConsolePrinter/MyText.cpp" "/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles/asd.dir/MyText.cpp.o"
+  "/home/mg/malinowyKROL/ConsolePrinter/main.cpp" "/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles/asd.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

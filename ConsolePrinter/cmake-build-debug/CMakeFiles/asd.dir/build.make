@@ -43,10 +43,10 @@ RM = /snap/clion/111/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mg/CLionProjects/projects/asd
+CMAKE_SOURCE_DIR = /home/mg/malinowyKROL/ConsolePrinter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mg/CLionProjects/projects/asd/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/asd.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/asd.dir/flags.make
 
 CMakeFiles/asd.dir/main.cpp.o: CMakeFiles/asd.dir/flags.make
 CMakeFiles/asd.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/asd.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asd.dir/main.cpp.o -c /home/mg/CLionProjects/projects/asd/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/asd.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asd.dir/main.cpp.o -c /home/mg/malinowyKROL/ConsolePrinter/main.cpp
 
 CMakeFiles/asd.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/asd.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mg/CLionProjects/projects/asd/main.cpp > CMakeFiles/asd.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mg/malinowyKROL/ConsolePrinter/main.cpp > CMakeFiles/asd.dir/main.cpp.i
 
 CMakeFiles/asd.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/asd.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mg/CLionProjects/projects/asd/main.cpp -o CMakeFiles/asd.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mg/malinowyKROL/ConsolePrinter/main.cpp -o CMakeFiles/asd.dir/main.cpp.s
 
 CMakeFiles/asd.dir/ConsolePrinter.cpp.o: CMakeFiles/asd.dir/flags.make
 CMakeFiles/asd.dir/ConsolePrinter.cpp.o: ../ConsolePrinter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/asd.dir/ConsolePrinter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asd.dir/ConsolePrinter.cpp.o -c /home/mg/CLionProjects/projects/asd/ConsolePrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/asd.dir/ConsolePrinter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asd.dir/ConsolePrinter.cpp.o -c /home/mg/malinowyKROL/ConsolePrinter/ConsolePrinter.cpp
 
 CMakeFiles/asd.dir/ConsolePrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/asd.dir/ConsolePrinter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mg/CLionProjects/projects/asd/ConsolePrinter.cpp > CMakeFiles/asd.dir/ConsolePrinter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mg/malinowyKROL/ConsolePrinter/ConsolePrinter.cpp > CMakeFiles/asd.dir/ConsolePrinter.cpp.i
 
 CMakeFiles/asd.dir/ConsolePrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/asd.dir/ConsolePrinter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mg/CLionProjects/projects/asd/ConsolePrinter.cpp -o CMakeFiles/asd.dir/ConsolePrinter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mg/malinowyKROL/ConsolePrinter/ConsolePrinter.cpp -o CMakeFiles/asd.dir/ConsolePrinter.cpp.s
 
 CMakeFiles/asd.dir/MyLine.cpp.o: CMakeFiles/asd.dir/flags.make
 CMakeFiles/asd.dir/MyLine.cpp.o: ../MyLine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/asd.dir/MyLine.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asd.dir/MyLine.cpp.o -c /home/mg/CLionProjects/projects/asd/MyLine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/asd.dir/MyLine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asd.dir/MyLine.cpp.o -c /home/mg/malinowyKROL/ConsolePrinter/MyLine.cpp
 
 CMakeFiles/asd.dir/MyLine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/asd.dir/MyLine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mg/CLionProjects/projects/asd/MyLine.cpp > CMakeFiles/asd.dir/MyLine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mg/malinowyKROL/ConsolePrinter/MyLine.cpp > CMakeFiles/asd.dir/MyLine.cpp.i
 
 CMakeFiles/asd.dir/MyLine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/asd.dir/MyLine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mg/CLionProjects/projects/asd/MyLine.cpp -o CMakeFiles/asd.dir/MyLine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mg/malinowyKROL/ConsolePrinter/MyLine.cpp -o CMakeFiles/asd.dir/MyLine.cpp.s
 
 CMakeFiles/asd.dir/MyText.cpp.o: CMakeFiles/asd.dir/flags.make
 CMakeFiles/asd.dir/MyText.cpp.o: ../MyText.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/asd.dir/MyText.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asd.dir/MyText.cpp.o -c /home/mg/CLionProjects/projects/asd/MyText.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/asd.dir/MyText.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asd.dir/MyText.cpp.o -c /home/mg/malinowyKROL/ConsolePrinter/MyText.cpp
 
 CMakeFiles/asd.dir/MyText.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/asd.dir/MyText.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mg/CLionProjects/projects/asd/MyText.cpp > CMakeFiles/asd.dir/MyText.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mg/malinowyKROL/ConsolePrinter/MyText.cpp > CMakeFiles/asd.dir/MyText.cpp.i
 
 CMakeFiles/asd.dir/MyText.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/asd.dir/MyText.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mg/CLionProjects/projects/asd/MyText.cpp -o CMakeFiles/asd.dir/MyText.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mg/malinowyKROL/ConsolePrinter/MyText.cpp -o CMakeFiles/asd.dir/MyText.cpp.s
 
 # Object files for target asd
 asd_OBJECTS = \
@@ -125,7 +125,7 @@ asd: CMakeFiles/asd.dir/MyLine.cpp.o
 asd: CMakeFiles/asd.dir/MyText.cpp.o
 asd: CMakeFiles/asd.dir/build.make
 asd: CMakeFiles/asd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable asd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable asd"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/asd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/asd.dir/clean:
 .PHONY : CMakeFiles/asd.dir/clean
 
 CMakeFiles/asd.dir/depend:
-	cd /home/mg/CLionProjects/projects/asd/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mg/CLionProjects/projects/asd /home/mg/CLionProjects/projects/asd /home/mg/CLionProjects/projects/asd/cmake-build-debug /home/mg/CLionProjects/projects/asd/cmake-build-debug /home/mg/CLionProjects/projects/asd/cmake-build-debug/CMakeFiles/asd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mg/malinowyKROL/ConsolePrinter /home/mg/malinowyKROL/ConsolePrinter /home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug /home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug /home/mg/malinowyKROL/ConsolePrinter/cmake-build-debug/CMakeFiles/asd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/asd.dir/depend
 
