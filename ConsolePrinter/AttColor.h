@@ -1,35 +1,31 @@
-//
-// Created by mg on 21/04/2020.
-//
-
 #ifndef ASD_ATTCOLOR_H
 #define ASD_ATTCOLOR_H
 
 class AttColor {
 public:
-    enum Option {
-        BLACK = 0,
-        RED = 1,
-        GREEN = 2,
-        YELLOW = 3,
-        BLUE = 4,
-        MAGENTA = 5,
-        CYAN = 6,
-        GRAY = 7,
-        WHITE = 8
+    enum Attribute {
+        BLACK,
+        RED,
+        GREEN,
+        YELLOW,
+        BLUE,
+        MAGENTA,
+        CYAN,
+        GRAY,
+        WHITE
     };
 
-    AttColor(Option opt) : m_color(opt) {}
+    AttColor(Attribute opt) : m_color(opt) {}
 
-    void setColor(AttColor::Option c) {
+    void setColor(Attribute c) {
         m_color = c;
     }
 
-    AttColor::Option getColor() const {
+    Attribute getColor() const {
         return m_color;
     }
 protected:
-    AttColor::Option m_color;
+    Attribute m_color;
 };
 
 #endif //ASD_ATTCOLOR_H

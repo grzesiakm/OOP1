@@ -1,10 +1,8 @@
-//
-// Created by mg on 21/04/2020.
-//
 #include "MyText.h"
+#include <utility>
 
 void MyText::setText(std::string txt) {
-    m_text = txt;
+    m_text = std::move(txt);
 }
 
 unsigned int MyText::getLength() const {

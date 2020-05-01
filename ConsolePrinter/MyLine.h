@@ -1,16 +1,12 @@
-//
-// Created by mg on 21/04/2020.
-//
-
 #ifndef ASD_MYLINE_H
 #define ASD_MYLINE_H
 #include "AttColor.h"
 #include "AttFormat.h"
-#include "StringConvertable.h"
+#include "MyPrintable.h"
 
-class MyLine : public AttColor, public StringConvertable {
+class MyLine : public AttColor, public MyPrintable {
 public:
-    MyLine(char ch, unsigned int l, AttColor::Option op) : m_char(ch), m_len(l), AttColor(op) {}
+    MyLine(char ch, unsigned int l, AttColor::Attribute op) : AttColor(op), m_char(ch), m_len(l) {}
 
     std::string rawString() const override;
 

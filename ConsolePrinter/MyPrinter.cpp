@@ -1,13 +1,9 @@
-//
-// Created by mg on 21/04/2020.
-//
-
-#include "ConsolePrinter.h"
+#include "MyPrinter.h"
 #include "MyText.h"
 #include "MyLine.h"
 #include <iostream>
 
-ConsolePrinter::ConsolePrinter(unsigned int width)
+MyPrinter::MyPrinter(unsigned int width)
         : m_width(width)
 {
 
@@ -16,18 +12,18 @@ ConsolePrinter::ConsolePrinter(unsigned int width)
 ////////////////////////////////////////////////////////////////////////
 //  Jedyna metoda klasy MyPrinter ktora powinni Panstwo modyfikowac.  //
 ////////////////////////////////////////////////////////////////////////
-void ConsolePrinter::print( const StringConvertable & obj ) const
+void MyPrinter::print(const MyPrintable & obj ) const
 {
     unsigned int spaces = (m_width - obj.getLength()) / 2;
     const std::string sp = std::string(spaces, ' ');
-    auto ptr = const_cast<StringConvertable*>(&obj);
-    auto format = dynamic_cast<AttFormat*>(ptr);
-    auto color = dynamic_cast<AttColor*>(ptr);
+    auto ptr = dynamic_cast<const MyPrintable*>(&obj);
 
+    auto format = dynamic_cast<const AttFormat*>(ptr);
     if (format != nullptr) {
         std::cout << controlSeq(format->getFormat());
     }
 
+    auto color = dynamic_cast<const AttColor*>(ptr);
     if (color != nullptr) {
         std::cout << controlSeq(color->getColor());
     }
@@ -41,50 +37,50 @@ void ConsolePrinter::print( const StringConvertable & obj ) const
 ///                                                                  ///
 ////////////////////////////////////////////////////////////////////////
 
-const char * ConsolePrinter::resetSeq()
+const char * MyPrinter::resetSeq()
 {
-    return "\e[0m";
+    return "\x1B[0m";
 }
 
 // formats: BOLD, DIM, UNDERLINED, RESET
-const char * ConsolePrinter::controlSeq( AttFormat::Option opt )
+const char * MyPrinter::controlSeq(AttFormat::Attribute opt )
 {
     switch(opt)
     {
         case AttFormat::BOLD :
-            return "\e[1m";
+            return "\x1B[1m";
         case AttFormat::DIM :
-            return "\e[2m";
+            return "\x1B[2m";
         case AttFormat::UNDERLINED :
-            return "\e[4m";
+            return "\x1B[4m";
         default:
             return resetSeq();
     }
 }
 
 // colors: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, GRAY, WHITE, RESET
-const char * ConsolePrinter::controlSeq( AttColor::Option opt )
+const char * MyPrinter::controlSeq(AttColor::Attribute opt )
 {
     switch(opt)
     {
         case AttColor::BLACK :
-            return "\e[30m";
+            return "\x1B[30m";
         case AttColor::RED :
-            return "\e[31m";
+            return "\x1B[31m";
         case AttColor::GREEN :
-            return "\e[32m";
+            return "\x1B[32m";
         case AttColor::YELLOW :
-            return "\e[33m";
+            return "\x1B[33m";
         case AttColor::BLUE :
-            return "\e[34m";
+            return "\x1B[34m";
         case AttColor::MAGENTA :
-            return "\e[35m";
+            return "\x1B[35m";
         case AttColor::CYAN :
-            return "\e[36m";
+            return "\x1B[36m";
         case AttColor::GRAY :
-            return "\e[90m";
+            return "\x1B[90m";
         case AttColor::WHITE  :
-            return "\e[97m";
+            return "\x1B[97m";
         default:
             return resetSeq();
     }

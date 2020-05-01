@@ -19,7 +19,7 @@
 
 #include "MyText.h"
 #include "MyLine.h"
-#include "ConsolePrinter.h"
+#include "MyPrinter.h"
 #include <iostream>
 
 int main()
@@ -33,9 +33,9 @@ int main()
     ptrCol = &line;
     // ptrFor = &line; -> blad kompilacji!!!
 
-    std::cout << ConsolePrinter::controlSeq( ptrCol->getColor() );
+    std::cout << MyPrinter::controlSeq(ptrCol->getColor() );
     std::cout << line.rawString();
-    std::cout << ConsolePrinter::resetSeq() << std::endl;
+    std::cout << MyPrinter::resetSeq() << std::endl;
 
     ////////////////////////////////////////////////////////////////////
     MyText text("JULIUSZ SLOWACKI", AttFormat::BOLD, AttColor::GREEN);
@@ -43,13 +43,13 @@ int main()
     ptrCol = &text;
     ptrFor = &text;
 
-    std::cout << ConsolePrinter::controlSeq( ptrFor->getFormat() )
-              << ConsolePrinter::controlSeq( ptrCol->getColor() );
+    std::cout << MyPrinter::controlSeq(ptrFor->getFormat() )
+              << MyPrinter::controlSeq(ptrCol->getColor() );
     std::cout << std::string(22, ' ') << text.rawString() << std::endl;
-    std::cout << line.rawString() << ConsolePrinter::resetSeq() << std::endl;
+    std::cout << line.rawString() << MyPrinter::resetSeq() << std::endl;
 
     ////////////////////////////////////////////////////////////////////
-    ConsolePrinter printer(60);
+    MyPrinter printer(60);
 
     line.setLength(50);
     line.setChar('-');

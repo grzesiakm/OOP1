@@ -1,16 +1,14 @@
-//
-// Created by mg on 21/04/2020.
-//
-
 #ifndef ASD_MYTEXT_H
 #define ASD_MYTEXT_H
+#include <utility>
+
 #include "AttFormat.h"
 #include "AttColor.h"
-#include "StringConvertable.h"
+#include "MyPrintable.h"
 
-class MyText : public AttColor, public AttFormat, public StringConvertable {
+class MyText : public AttColor, public AttFormat, public MyPrintable {
 public:
-    MyText(const std::string a, AttFormat::Option o, AttColor::Option op) : m_text(a), AttFormat(o), AttColor(op) {}
+    MyText(std::string  a, AttFormat::Attribute o, AttColor::Attribute op) : AttFormat(o), AttColor(op), m_text(std::move(a)) {}
 
     void setText(std::string txt);
 

@@ -3,4 +3,4 @@ project(asd)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(asd main.cpp AttColor.h AttFormat.h ConsolePrinter.h StringConvertable.h ConsolePrinter.cpp MyLine.h MyLine.cpp MyText.h MyText.cpp)
+add_executable(asd main.cpp AttColor.h AttFormat.h MyPrinter.h MyPrintable.h MyPrinter.cpp MyLine.h MyLine.cpp MyText.h MyText.cpp)
